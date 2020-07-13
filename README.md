@@ -18,7 +18,7 @@ This is a C# console application console where users...
 Clone this repository to your local machine.
 
 ```
-$ git clone [https://github.com/Bryant-Yasir-Trevor/Lab04TicTacToe.git]
+$ git clone [https://github.com/Andrew-Trevor/Lab06IBuiltAZoo.git]
 ```
 
 ### To run the program from Visual Studio:
