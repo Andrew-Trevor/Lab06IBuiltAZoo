@@ -8,6 +8,11 @@ namespace Lab06_IBuiltAZoo.Classes
     {
         string EagleSpecie { get; set; }
 
+        public Eagle(string name)
+        {
+            Name = name;
+        }
+
         public string IsFlying()
         {
             string message = $"{Name} is flying so high";

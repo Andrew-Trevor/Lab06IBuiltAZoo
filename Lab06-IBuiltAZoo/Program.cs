@@ -6,7 +6,6 @@ namespace Lab06_IBuiltAZoo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }

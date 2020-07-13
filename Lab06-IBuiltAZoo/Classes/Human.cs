@@ -9,6 +9,12 @@ namespace Lab06_IBuiltAZoo.Classes
         string Language { get; set; }
         decimal Height { get; set; }
 
+
+        public Human(string name)
+        {
+            Name = name;
+        }
+
         public string IsTalking()
         {
             string message = $"{Name} is talking.";

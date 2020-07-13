@@ -9,6 +9,11 @@ namespace Lab06_IBuiltAZoo.Classes
         float Cuteness { get; set; }
         string Breed { get; set; }
 
+        public Cat(string name)
+        {
+            Name = name;
+        }
+
         public string IsMeowing() 
         {
             string message = $"{Name} says Roar!!!";

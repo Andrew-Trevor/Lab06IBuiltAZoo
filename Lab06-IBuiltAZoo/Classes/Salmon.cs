@@ -8,6 +8,11 @@ namespace Lab06_IBuiltAZoo.Classes
     {
         string Species { get; set; }
 
+        public Salmon(string name)
+        {
+            Name = name;
+        }
+
         public string SwimUpStream()
         {
             string message = $"{Name} is swimming up stream. Watch out for bears.";

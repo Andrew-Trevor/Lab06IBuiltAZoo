@@ -9,6 +9,11 @@ namespace Lab06_IBuiltAZoo.Classes
         int RowsOfTeeth { get; set; }
         bool Carnivor { get;  set; }
 
+        public Shark(string name)
+        {
+            Name = name;
+        }
+
         public bool SmellBlood()
         {
             Console.WriteLine($"{Name} can smell blood.");

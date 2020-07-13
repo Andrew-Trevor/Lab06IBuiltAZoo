@@ -8,6 +8,11 @@ namespace Lab06_IBuiltAZoo.Classes
     {
         string WhichArctic { get;  set; }
 
+        public Penguin(string name)
+        {
+            Name = name;
+        }
+
         public bool IsSwimming()
         {
             Console.WriteLine($"{Name} is swimming.");
