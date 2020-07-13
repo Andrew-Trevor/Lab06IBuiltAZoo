@@ -10,7 +10,7 @@ Lab06: Lab06: I Built A Zoo
 ----
 
 ## Description
-This is a C# console application console where users...
+This is a C# console application console where users are able to build a zoo. All animals inherit their properties from 1 or more base classes.
 
 ---
 
@@ -44,6 +44,7 @@ Then select and open ```Lab06-IBuiltAZoo.sln```
 ---
 
 ### Change Log
+1.2: Classes Built
 1.1: Inital Repo Setup
 
 
