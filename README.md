@@ -42,16 +42,14 @@ Then select and open ```Lab06-IBuiltAZoo.sln```
 #### Using the Application
 ![Mid](images/Demo.png)
 
-
-
-
 ---
 
 ### Change Log
-- 1.4: Comments and Readme
+- 1.5: Added links to README
+- 1.4: Comments and README
 - 1.3: Functionally Finished
 - 1.2: Classes Built
-- 1.1: Inital Repo Setup
+- 1.1: Initial Repo Setup
 
 
 ------------------------------
