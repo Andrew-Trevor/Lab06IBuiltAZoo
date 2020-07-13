@@ -20,6 +20,18 @@ namespace ZooUnitTests
         }
 
         [Fact]
+        public void CanReturnSleep()
+        {
+            // Arrange
+            Human human = new Human("Trevor");          
+            // Act
+            bool returnFromMethod = human.Sleep();
+            // Assert
+            Assert.True(returnFromMethod);
+        }
+
+
+        [Fact]
         public void CanReturnIsMeowing()
         {
             // Arrange
@@ -55,6 +67,17 @@ namespace ZooUnitTests
         }
 
         [Fact]
+        public void CanReturnTrueFromIsSinging()
+        {
+            // Arrange
+            Eagle eagle = new Eagle("Harry");
+            // Act
+            bool returnFromMethod = eagle.Singing();
+            // Assert
+            Assert.True(returnFromMethod);
+        }
+
+        [Fact]
         public void CanReturnSmellBlood()
         {
             // Arrange
@@ -64,6 +87,19 @@ namespace ZooUnitTests
             // Assert
             Assert.True(returnFromMethod);
         }
+
+        [Fact]
+        public void FishCanReturnIsSwimming()
+        {
+            // Arrange
+            Shark shark = new Shark("Sharknado");
+            string expected = $"{shark.Name} is swimming so far!";
+            // Act
+            string returnFromMethod = shark.IsSwimming();
+            // Assert
+            Assert.Equal(expected, returnFromMethod);
+        }
+
 
         [Fact]
         public void CanReturnSwimUpStream()

@@ -34,18 +34,24 @@ Then select and open ```Lab06-IBuiltAZoo.sln```
 
 ### Visuals
 
-#### Application Start
-![Start](start.jpeg)
+#### UML Diagram
+
+- ![Drawing](images/draw.png)
+- [Drawing](https://drive.google.com/file/d/1j4i0vq-xdRfi_IEjsjONRrAoG6vdJh-u/view?usp=sharing)
+
 #### Using the Application
-![Mid](mid.jpg)
-#### Application End
-![Fin](fin.jpg)
+![Mid](images/Demo.png)
+
+
+
 
 ---
 
 ### Change Log
-1.2: Classes Built
-1.1: Inital Repo Setup
+- 1.4: Comments and Readme
+- 1.3: Functionally Finished
+- 1.2: Classes Built
+- 1.1: Inital Repo Setup
 
 
 ------------------------------

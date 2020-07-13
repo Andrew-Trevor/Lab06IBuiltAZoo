@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Lab06_IBuiltAZoo.Classes
 {
+    /// <summary>
+    /// This is the Parent call to all classes.
+    /// </summary>
     abstract public class Animal
     {
         public string Name { get; set; }
@@ -16,6 +19,7 @@ namespace Lab06_IBuiltAZoo.Classes
         /// <returns>Returns true</returns>
         public bool ProCreating()
         {
+            Console.WriteLine("Yeah that is happening");
             return true;
         }
     }

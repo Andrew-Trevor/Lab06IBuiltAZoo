@@ -4,11 +4,18 @@ using System.Text;
 
 namespace Lab06_IBuiltAZoo.Classes
 {
-    public abstract class Fish :Animal
+    /// <summary>
+    /// Fish is a child class of animal and the parent of Shark and Salmon
+    /// </summary>
+    public abstract class Fish : Animal
     {
         decimal AverageSwimSpeed { get;  set; }
         int NumberOfFins { get;  set; }
 
+        /// <summary>
+        /// All fish swim. This is the method for all fish
+        /// </summary>
+        /// <returns>Returns string message</returns>
         public string IsSwimming()
         {
             string message = $"{Name} is swimming so far!";
