@@ -9,8 +9,9 @@ namespace Lab06_IBuiltAZoo.Classes
     /// </summary>
     abstract public class Birds : Animal
     {
-        decimal AverageWingSpan { get;  set; }
-        string Speices { get;  set; }
+        // This is one of our 2 abstract properties. This will be defined in Penguin and Eagle classes
+        public abstract decimal AverageWingSpan { get;  set; }
+        string Species { get;  set; }
         bool CanFly { get;  set; }
 
         /// <summary>
@@ -21,6 +22,17 @@ namespace Lab06_IBuiltAZoo.Classes
         {
             Console.WriteLine($"{Name} is singing at the top of their lungs.");
             return true;
+        }
+
+        /// <summary>
+        /// This is a virtual method that says that this bird is moving.
+        /// </summary>
+        /// <returns>Returns a string</returns>
+        public virtual string Moving()
+        {
+            string message = $"I am moving!!!";
+            Console.WriteLine(message);
+            return message;
         }
     }
 }

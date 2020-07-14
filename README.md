@@ -33,9 +33,29 @@ and the Shark and Salmon classes derive from the Fish class. See the UML diagram
 **Abstraction** - The Human, Cat, Shark, Salmon, Eagle and Penguin classes are concrete classes. All of the concrete 
 classes are being derived from abstract classes.
 
-**Polymorphism** - *Coming soon lab07*
+**Polymorphism** 
+1. abstract methods 
+    - abstract string FormOfProcreation() - in Animal class
+        - overridden in: Human, Cat, Penguin, Eagle, Shark, and Salmon Classes
+    - abstract string FreshOrSalt() - in Fish class
+        - overridden in: Shark and Salmon Classes
+2. virtual methods
+    - virtual string Moving() - in Birds class
+       - overridden in: Penguin and Eagle Classes
+    - virtual string LeadingTheHouse() - in human class
+       - overridden in: Human and Cat classes
+3. abstract properties
+    - abstract decimal MaxSpeed
+        - overridden in: Human, Cat, Penguin, Eagle, Shark, and Salmon Classes
+    - abstract decimal AverageWingSpan
+        - overridden in: Penguin and Eagle Classes
+4. virtual properties:
+    - virtual string Name
+        - overridden in: Human, Cat, Penguin, Eagle, Shark, and Salmon Classes
+    - virtual stringHairColor
+        - overridden in: Human and Cat Classes  
 
-**Encapsulation** - *Coming soon lab07*
+**Encapsulation** - *Not required for lab07*
 
 ### Getting Started
 Clone this repository to your local machine.
@@ -60,6 +80,7 @@ Then select and open ```Lab06-IBuiltAZoo.sln```
 #### UML Diagram
 
 - ![Drawing](images/Draw.png)
+- ![DrawingDay2](images/Draw02.png)
 - [Drawing](https://drive.google.com/file/d/1j4i0vq-xdRfi_IEjsjONRrAoG6vdJh-u/view?usp=sharing)
 
 #### Using the Application
@@ -68,6 +89,7 @@ Then select and open ```Lab06-IBuiltAZoo.sln```
 ---
 
 ### Change Log
+- 1.6: Added polymorphic methods and properties
 - 1.5: Added links to README
 - 1.4: Comments and README
 - 1.3: Functionally Finished
