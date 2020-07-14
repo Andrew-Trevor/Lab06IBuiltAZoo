@@ -89,6 +89,7 @@ Then select and open ```Lab06-IBuiltAZoo.sln```
 ---
 
 ### Change Log
+- 1.7: Added unit tests for polymorphic methods
 - 1.6: Added polymorphic methods and properties
 - 1.5: Added links to README
 - 1.4: Comments and README
