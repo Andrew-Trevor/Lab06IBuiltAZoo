@@ -11,8 +11,9 @@ namespace Lab06_IBuiltAZoo.Classes
     {
         // This is one of our 2 abstract properties. This will be defined in Penguin and Eagle classes
         public abstract decimal AverageWingSpan { get;  set; }
-        string Species { get;  set; }
-        bool CanFly { get;  set; }
+        // These properties are accessible only to itself and it's derived classes
+        protected string Species { get;  set; }
+        protected bool CanFly { get;  set; }
 
         /// <summary>
         /// Shows that the birds are singing

@@ -9,8 +9,9 @@ namespace Lab06_IBuiltAZoo.Classes
     /// </summary>
     public abstract class Fish : Animal
     {
-        decimal AverageSwimSpeed { get;  set; }
-        int NumberOfFins { get;  set; }
+        // These properties are only accessible to the assembly
+        internal decimal AverageSwimSpeed { get;  set; }
+        internal int NumberOfFins { get;  set; }
 
         /// <summary>
         /// All fish swim. This is the method for all fish

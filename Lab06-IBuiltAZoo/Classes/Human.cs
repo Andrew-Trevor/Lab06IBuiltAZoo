@@ -11,8 +11,8 @@ namespace Lab06_IBuiltAZoo.Classes
     {
         // This overrides the name from the Animal abstract class.
         public override string Name { get; set; }
-        string Language { get; set; }
-        decimal Height { get; set; }
+        private string Language { get; set; }
+        private decimal Height { get; set; }
         // overridden property from the Animal abstract class
         public override decimal MaxSpeed { get; set; }
         // overridden property from the Mammals abstract class

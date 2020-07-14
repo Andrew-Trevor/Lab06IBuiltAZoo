@@ -9,7 +9,8 @@ namespace Lab06_IBuiltAZoo.Classes
     /// </summary>
     public class Salmon : Fish
     {
-        string Species { get; set; }
+        // Species property is private
+        private string Species { get; set; }
         // This overrides the MaxSpeed from the Animal abstract class
         public override decimal MaxSpeed { get; set; }
         // This overrides the Name from the Animal abstract class

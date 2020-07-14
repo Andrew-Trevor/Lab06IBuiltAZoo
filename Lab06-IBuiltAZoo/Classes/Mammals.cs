@@ -11,7 +11,8 @@ namespace Lab06_IBuiltAZoo.Classes
     {
         // Virtual property - will be overridden by derived classes.
         public virtual string HairColor { get; set; }
-        int NumberOfLimbs { get; set; }
+        // These properties are accessible only to itself and it's derived classes
+        protected int NumberOfLimbs { get; set; }
        
         /// <summary>
         /// Mammals Run
