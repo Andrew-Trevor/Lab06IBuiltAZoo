@@ -80,7 +80,7 @@ Then select and open ```Lab06-IBuiltAZoo.sln```
 #### UML Diagram
 
 - ![Drawing](images/Draw.png)
-- ![DrawingDay2](images/Draw02.png)
+- ![DrawingDay2](images/Draw02.jpg)
 - [Drawing](https://drive.google.com/file/d/1j4i0vq-xdRfi_IEjsjONRrAoG6vdJh-u/view?usp=sharing)
 
 #### Using the Application
