@@ -14,6 +14,16 @@ This is a C# console application console where users are able to build a zoo. Al
 
 ---
 
+### OOP Definitions & Implementations
+
+**Inheritance** - The ability for class for classes to *inherit* properties and methods from the classes they *derive* from.
+
+**Abstraction** - The concept of hiding or showing unnecessary class members to the client user.
+
+**Polymorphism** - The ability for a *derived* class to modify it's *inherited* properties and methods.
+
+**Encapsulation** - The *grouping* together of data and assigning different *permissions*.
+
 ### Getting Started
 Clone this repository to your local machine.
 
@@ -36,7 +46,7 @@ Then select and open ```Lab06-IBuiltAZoo.sln```
 
 #### UML Diagram
 
-- ![Drawing](images/draw.png)
+- ![Drawing](images/Draw.png)
 - [Drawing](https://drive.google.com/file/d/1j4i0vq-xdRfi_IEjsjONRrAoG6vdJh-u/view?usp=sharing)
 
 #### Using the Application
