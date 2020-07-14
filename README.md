@@ -14,7 +14,7 @@ This is a C# console application console where users are able to build a zoo. Al
 
 ---
 
-### OOP Definitions & Implementations
+### OOP Definitions
 
 **Inheritance** - The ability for class for classes to *inherit* properties and methods from the classes they *derive* from.
 
@@ -23,6 +23,19 @@ This is a C# console application console where users are able to build a zoo. Al
 **Polymorphism** - The ability for a *derived* class to modify it's *inherited* properties and methods.
 
 **Encapsulation** - The *grouping* together of data and assigning different *permissions*.
+
+### OOP Implementations
+
+**Inheritance** - The uppermost base class is the Animal class from which the classes Birds, Mammals and Fish directly derive
+from. The Human and Cat classes both derive from the Mammals class. The Penguin and Eagle classes derive from the Birds class, 
+and the Shark and Salmon classes derive from the Fish class. See the UML diagram for clarity.
+
+**Abstraction** - The Human, Cat, Shark, Salmon, Eagle and Penguin classes are concrete classes. All of the concrete 
+classes are being derived from abstract classes.
+
+**Polymorphism** - *Coming soon lab07*
+
+**Encapsulation** - *Coming soon lab07*
 
 ### Getting Started
 Clone this repository to your local machine.
