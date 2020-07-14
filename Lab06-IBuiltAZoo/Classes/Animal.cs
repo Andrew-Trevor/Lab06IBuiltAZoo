@@ -9,9 +9,11 @@ namespace Lab06_IBuiltAZoo.Classes
     /// </summary>
     abstract public class Animal
     {
+        // This is a virtual property.
         public virtual string Name { get; set; }
         public int Age { get; set; }
         public decimal AverageLifeSpan { get; set; }
+        // This is an abstract property
         public abstract decimal MaxSpeed { get; set; }
 
         /// <summary>

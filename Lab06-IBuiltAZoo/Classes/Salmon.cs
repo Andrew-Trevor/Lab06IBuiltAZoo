@@ -10,7 +10,10 @@ namespace Lab06_IBuiltAZoo.Classes
     public class Salmon : Fish
     {
         string Species { get; set; }
+        // This overrides the MaxSpeed from the Animal abstract class
         public override decimal MaxSpeed { get; set; }
+        // This overrides the Name from the Animal abstract class
+        public override string Name { get; set; }
 
         /// <summary>
         /// Constructor method of the Salmon Class
@@ -40,6 +43,17 @@ namespace Lab06_IBuiltAZoo.Classes
         public override string FormOfProcreation()
         {
             string message = $"Swims upstream lays all their eggs then dies.";
+            Console.WriteLine(message);
+            return message;
+        }
+
+        /// <summary>
+        /// Describes whether the salmon is a fresh water fish or a salt water fish.
+        /// </summary>
+        /// <returns>Returns a string.</returns>
+        public override string FreshOrSalt()
+        {
+            string message = "I can swim in fresh and salt water!";
             Console.WriteLine(message);
             return message;
         }

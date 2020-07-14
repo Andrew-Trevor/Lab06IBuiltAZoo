@@ -33,29 +33,29 @@ and the Shark and Salmon classes derive from the Fish class. See the UML diagram
 **Abstraction** - The Human, Cat, Shark, Salmon, Eagle and Penguin classes are concrete classes. All of the concrete 
 classes are being derived from abstract classes.
 
-**Polymorphism** - *Coming soon lab07*
+**Polymorphism** 
 1. abstract methods 
     - abstract string FormOfProcreation() - in Animal class
         - overridden in: Human, Cat, Penguin, Eagle, Shark, and Salmon Classes
     - abstract string FreshOrSalt() - in Fish class
         - overridden in: Shark and Salmon Classes
-1. virtual methods
+2. virtual methods
     - virtual string Moving() - in Birds class
        - overridden in: Penguin and Eagle Classes
     - virtual string LeadingTheHouse() - in human class
        - overridden in: Human and Cat classes
-1. abstract properties
+3. abstract properties
     - abstract decimal MaxSpeed
         - overridden in: Human, Cat, Penguin, Eagle, Shark, and Salmon Classes
     - abstract decimal AverageWingSpan
         - overridden in: Penguin and Eagle Classes
-1. virtual properties:
+4. virtual properties:
     - virtual string Name
         - overridden in: Human, Cat, Penguin, Eagle, Shark, and Salmon Classes
     - virtual stringHairColor
         - overridden in: Human and Cat Classes  
 
-**Encapsulation** - *Coming soon lab07*
+**Encapsulation** - *Not required for lab07*
 
 ### Getting Started
 Clone this repository to your local machine.

@@ -9,9 +9,14 @@ namespace Lab06_IBuiltAZoo.Classes
     /// </summary>
     public class Cat : Mammals
     {
+        // This overrides the name from the Animal abstract class.
+        public override string Name { get; set; }
         float Cuteness { get; set; }
         string Breed { get; set; }
-        public override decimal MaxSpeed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        // This overrides the MaxSpeed from the Animal abstract class.
+        public override decimal MaxSpeed { get; set; }
+        // This overrides the HairColor from the Mammals abstract class.
+        public override string HairColor { get; set; }
 
         /// <summary>
         /// Constructor method for Cat
@@ -41,6 +46,18 @@ namespace Lab06_IBuiltAZoo.Classes
         public override string FormOfProcreation()
         {
             string message = $"Produces a litter every birth roughly year round.";
+            Console.WriteLine(message);
+            return message;
+        }
+
+
+        /// <summary>
+        /// Proclaims the leadership of the house from the virtual method declared in Mammals.
+        /// </summary>
+        /// <returns>Returns a string</returns>
+        public override string LeadingTheHouse()
+        {
+            string message = "I truly am the leader of the house!";
             Console.WriteLine(message);
             return message;
         }

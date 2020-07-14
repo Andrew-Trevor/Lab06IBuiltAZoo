@@ -9,9 +9,14 @@ namespace Lab06_IBuiltAZoo.Classes
     /// </summary>
     public class Human : Mammals
     {
+        // This overrides the name from the Animal abstract class.
+        public override string Name { get; set; }
         string Language { get; set; }
         decimal Height { get; set; }
+        // overridden property from the Animal abstract class
         public override decimal MaxSpeed { get; set; }
+        // overridden property from the Mammals abstract class
+        public override string HairColor { get; set; }
 
 
         /// <summary>
@@ -42,6 +47,17 @@ namespace Lab06_IBuiltAZoo.Classes
         public override string FormOfProcreation()
         {
             string message = $"One live birth at a time every nine months.";
+            Console.WriteLine(message);
+            return message;
+        }
+
+        /// <summary>
+        /// Proclaims the leadership of the house from the virtual method declared in Mammals.
+        /// </summary>
+        /// <returns>Returns a string</returns>
+        public override string LeadingTheHouse()
+        {            
+            string message = "I think I am the leader of the house!";
             Console.WriteLine(message);
             return message;
         }

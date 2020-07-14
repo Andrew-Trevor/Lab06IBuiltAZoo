@@ -9,6 +9,7 @@ namespace Lab06_IBuiltAZoo.Classes
     /// </summary>
     public abstract class Mammals : Animal
     {
+        // Virtual property - will be overridden by derived classes.
         public virtual string HairColor { get; set; }
         int NumberOfLimbs { get; set; }
        
@@ -39,7 +40,9 @@ namespace Lab06_IBuiltAZoo.Classes
         /// <returns>Returns a string</returns>
         public virtual string LeadingTheHouse()
         {
-            return "I am the leader of the house!";
+            string message = "I am the leader of the house!";
+            Console.WriteLine(message);
+            return message;
         }
     }
 }

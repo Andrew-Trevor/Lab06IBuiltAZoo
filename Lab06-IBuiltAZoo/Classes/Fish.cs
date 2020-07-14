@@ -22,5 +22,11 @@ namespace Lab06_IBuiltAZoo.Classes
             Console.WriteLine(message);
             return message;
         }
+
+        /// <summary>
+        /// Describes whether the fish is a fresh water fish or a salt water fish.
+        /// </summary>
+        /// <returns>Returns a string.</returns>
+        public abstract string FreshOrSalt();
     }
 }

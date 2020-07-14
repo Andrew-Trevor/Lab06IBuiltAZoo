@@ -11,7 +11,10 @@ namespace Lab06_IBuiltAZoo.Classes
     {
         int RowsOfTeeth { get; set; }
         bool Carnivor { get;  set; }
+        // This overrides the MaxSpeed from the Animal abstract class
         public override decimal MaxSpeed { get; set; }
+        // This overrides the Name from the Animal abstract class
+        public override string Name { get; set; }
 
         /// <summary>
         /// Constructor method of the shark class
@@ -40,6 +43,17 @@ namespace Lab06_IBuiltAZoo.Classes
         public override string FormOfProcreation()
         {
             string message = $"Lays one egg that hatches inside the mother.";
+            Console.WriteLine(message);
+            return message;
+        }
+
+        /// <summary>
+        /// Describes whether the shark is a fresh water fish or a salt water fish.
+        /// </summary>
+        /// <returns>Returns a string.</returns>
+        public override string FreshOrSalt()
+        {
+            string message = "I am a salt water fish!";
             Console.WriteLine(message);
             return message;
         }
