@@ -9,7 +9,7 @@ namespace Lab06_IBuiltAZoo.Classes
     /// </summary>
     public abstract class Mammals : Animal
     {
-        string HairColor { get; set; }
+        public virtual string HairColor { get; set; }
         int NumberOfLimbs { get; set; }
        
         /// <summary>
@@ -31,6 +31,15 @@ namespace Lab06_IBuiltAZoo.Classes
         {
             Console.WriteLine($"{Name} is asleep.");
             return true;
+        }
+
+        /// <summary>
+        /// Proclaims the leadership of the house. This is a virtual method.
+        /// </summary>
+        /// <returns>Returns a string</returns>
+        public virtual string LeadingTheHouse()
+        {
+            return "I am the leader of the house!";
         }
     }
 }

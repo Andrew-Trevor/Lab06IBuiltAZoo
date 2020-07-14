@@ -11,6 +11,8 @@ namespace Lab06_IBuiltAZoo.Classes
     {
         string Language { get; set; }
         decimal Height { get; set; }
+        public override decimal MaxSpeed { get; set; }
+
 
         /// <summary>
         /// Constructor method for the human class
@@ -28,6 +30,18 @@ namespace Lab06_IBuiltAZoo.Classes
         public string IsTalking()
         {
             string message = $"{Name} is talking.";
+            Console.WriteLine(message);
+            return message;
+        }
+
+        /// <summary>
+        /// Describes human procreation. This method overrides the abstract method
+        /// from the Animal class.
+        /// </summary>
+        /// <returns>Returns a string.</returns>
+        public override string FormOfProcreation()
+        {
+            string message = $"One live birth at a time every nine months.";
             Console.WriteLine(message);
             return message;
         }
