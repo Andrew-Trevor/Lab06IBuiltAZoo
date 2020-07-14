@@ -11,6 +11,7 @@ namespace Lab06_IBuiltAZoo.Classes
     {
         float Cuteness { get; set; }
         string Breed { get; set; }
+        public override decimal MaxSpeed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         /// <summary>
         /// Constructor method for Cat
@@ -28,6 +29,18 @@ namespace Lab06_IBuiltAZoo.Classes
         public string IsMeowing() 
         {
             string message = $"{Name} says Roar!!!";
+            Console.WriteLine(message);
+            return message;
+        }
+
+        /// <summary>
+        /// Describes cat procreation. This method overrides the abstract method
+        /// from the Animal class.
+        /// </summary>
+        /// <returns>Returns a string</returns>
+        public override string FormOfProcreation()
+        {
+            string message = $"Produces a litter every birth roughly year round.";
             Console.WriteLine(message);
             return message;
         }

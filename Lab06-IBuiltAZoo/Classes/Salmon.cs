@@ -10,6 +10,7 @@ namespace Lab06_IBuiltAZoo.Classes
     public class Salmon : Fish
     {
         string Species { get; set; }
+        public override decimal MaxSpeed { get; set; }
 
         /// <summary>
         /// Constructor method of the Salmon Class
@@ -27,6 +28,18 @@ namespace Lab06_IBuiltAZoo.Classes
         public string SwimUpStream()
         {
             string message = $"{Name} is swimming up stream. Watch out for bears.";
+            Console.WriteLine(message);
+            return message;
+        }
+
+        /// <summary>
+        /// Describes salmon procreation. This method overrides the abstract method
+        /// from the Animal class.
+        /// </summary>
+        /// <returns>Returns a string</returns>
+        public override string FormOfProcreation()
+        {
+            string message = $"Swims upstream lays all their eggs then dies.";
             Console.WriteLine(message);
             return message;
         }

@@ -11,6 +11,7 @@ namespace Lab06_IBuiltAZoo.Classes
     {
         int RowsOfTeeth { get; set; }
         bool Carnivor { get;  set; }
+        public override decimal MaxSpeed { get; set; }
 
         /// <summary>
         /// Constructor method of the shark class
@@ -29,6 +30,18 @@ namespace Lab06_IBuiltAZoo.Classes
         {
             Console.WriteLine($"{Name} can smell blood.");
             return true;
+        }
+
+        /// <summary>
+        /// Describes shark procreation. This method overrides the abstract method
+        /// from the Animal class.
+        /// </summary>
+        /// <returns>Returns a string</returns>
+        public override string FormOfProcreation()
+        {
+            string message = $"Lays one egg that hatches inside the mother.";
+            Console.WriteLine(message);
+            return message;
         }
     }
 }
