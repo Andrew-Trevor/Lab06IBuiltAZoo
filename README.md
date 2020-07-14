@@ -55,7 +55,16 @@ classes are being derived from abstract classes.
     - virtual stringHairColor
         - overridden in: Human and Cat Classes  
 
-**Encapsulation** - *Not required for lab07*
+**Encapsulation** - 
+1. Protected
+    - Mammals - `protected NumberOfLimbs`
+    - Birds - `protected CanFly`, `protected Speices`
+2. Private
+    - Humans - `private Lanugage`, `private Height`
+    - Salmon - `private Speices` 
+3. Internal
+    - Fish - `internal AverageSwimSpeed`, `internal NumberOfFins`
+
 
 ### Getting Started
 Clone this repository to your local machine.
@@ -89,6 +98,7 @@ Then select and open ```Lab06-IBuiltAZoo.sln```
 ---
 
 ### Change Log
+- 1.8: Added protections for some properties
 - 1.7: Added unit tests for polymorphic methods
 - 1.6: Added polymorphic methods and properties
 - 1.5: Added links to README
